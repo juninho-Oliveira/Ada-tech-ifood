@@ -16,8 +16,6 @@ html{
 
 .container-grid {
     width: 80%;
-    
-    margin-bottom: 30px;
 }
 
 /*estilo do menu*/
@@ -56,6 +54,9 @@ header{
 }
 
 /*estilo do main*/
+.container-espaco {
+    margin-top: 20px;
+}
 
 .container-main {
     display: flex;
@@ -216,7 +217,7 @@ button {
     flex-direction: column;
     gap: 10px;
     border-radius: 5px;
-    border: 1px solid #e9665d;
+    border: 2px solid #e9665d;
     width: 432px;
     height: 500px;
 }
@@ -248,32 +249,77 @@ form input {
     color: white;
 }
 
+/*estilo das tabelas*/
+.menu {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.menu h1 {
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.menu h1:hover {
+    color: #e9665d;
+}
+
+.imagem-tabela img {
+    width: 400px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #e9665d;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+}
+
+thead tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+tbody tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*estilo do footer
+/*estilo do footer*/
 footer {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     height: 63px;
     font-weight: 700;
+    background-color: #e9665d;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer span {
-    color: #e9665d;
-  }*/
+    color: white;
+  }
