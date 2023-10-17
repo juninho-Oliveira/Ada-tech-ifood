@@ -17,6 +17,7 @@ html{
 .container-grid {
     width: 80%;
     
+    margin-bottom: 30px;
 }
 
 /*estilo do menu*/
@@ -31,6 +32,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .container-grid .menu ul {
@@ -199,12 +201,12 @@ button {
 .formulario {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
 .imagem-logo-pizza img {
-    width: 400px;
+    width: 350px;
 }
 
 .texto-form {
