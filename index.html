@@ -39,7 +39,7 @@
                         <div class="promocao">
                             <h1>Promoção do dia</h1>
                         </div>
-                    <div class="container-menu" id="menu">
+                    <div class="container-menu" >
 
                         <div class="cards-menu">
                             <img src="/imagens/01.png" alt="promoção do dia">
@@ -76,45 +76,52 @@
 
         </section>
 
-        <section class="container-form container-espaco" id="Cadastra">
+        <div class="menu-h1" id="menu">
+            <h1>Menu</h1>
+        </div>
+
+        <section class="container-menu-tabelas">
 
             <div class="container-grid">
 
-                <div class="formulario">
-
-                        <div class="imagem-logo-pizza">
-                            <img src="/imagens/logo.png" alt="logo-pizza">
-                        </div>
-
-                        <div class="texto-form">
-                            <h1>Cria uma nova conta</h1>
-                            <p>É rápido e fácil.</p>
-                        
-
-                            <div class="form-inputs" >
-                                <form action="https://6529714e55b137ddc83ed6ce.mockapi.io/api/v1/cardapio" method="post">
-                                    <input type="text" placeholder="Nome" id="nome" name="nome" required>
-                                    <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
-
-                                    <input type="email" placeholder="E-mail" id="email" name="email" required>
-                                    <input type="password" placeholder="Digite sua senha" id="senha" name="senha" required>
-
-                                    <label for="data">Data de nascimento</label>
-                                    <input type="date" id="data" name="data" required>
-
-                                    <button type="submit" id="Cadastre-se">Cadastre-se</button>
-                                </form>
-                            </div>
-                        </div>
-
-                </div>
-                <div class="menu">
-                    <h1>Menu</h1>
-                </div>
                 <div class="tabela" id="tabela">
                     <div class="imagem-tabela">
                         <img src="/imagens/pizza.png" alt="pizza">
                     </div>
+
+                    <div class="menu-cards" >
+
+                        <div class="cards-menu">
+                            <img src="/imagens/01.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="cards-menu">
+                            <img src="/imagens/02.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="cards-menu">
+                            <img src="/imagens/03.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                        
+                        <div class="cards-menu">
+                            <img src="/imagens/04.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="cards-menu">
+                            <img src="/imagens/04.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                                                <div class="cards-menu">
+                            <img src="/imagens/04.png" alt="promoção do dia">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+
                     <table>
                         <thead>
                         <tr>
@@ -219,11 +226,49 @@
                     </table>
 
                 </div>
-                  
-
             </div>
 
-        </section>
+        </div>
+
+    </section>
+
+    <div class="menu-h1" id="menu">
+        <h1>Cadastro</h1>
+    </div>
+
+        <section class="container-form container-espaco" id="Cadastra">
+
+            <div class="container-grid">
+
+                <div class="formulario">
+
+                        <div class="imagem-logo-pizza">
+                            <img src="/imagens/logo.png" alt="logo-pizza">
+                        </div>
+
+                        <div class="texto-form">
+                            <h1>Cria uma nova conta</h1>
+                            <p>É rápido e fácil.</p>
+                        
+
+                            <div class="form-inputs" >
+                                <form action="https://6529714e55b137ddc83ed6ce.mockapi.io/api/v1/cardapio" method="post">
+                                    <input type="text" placeholder="Nome" id="nome" name="nome" required>
+                                    <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
+
+                                    <input type="email" placeholder="E-mail" id="email" name="email" required>
+                                    <input type="password" placeholder="Digite sua senha" id="senha" name="senha" required>
+
+                                    <label for="data">Data de nascimento</label>
+                                    <input type="date" id="data" name="data" required>
+
+                                    <button type="submit" id="Cadastre-se">Cadastre-se</button>
+                                </form>
+                            </div>
+                        </div>
+
+                </div>
+                </section>
 
     </main>
 

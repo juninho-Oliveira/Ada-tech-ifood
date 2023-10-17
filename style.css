@@ -250,22 +250,24 @@ form input {
 }
 
 /*estilo das tabelas*/
-.menu {
+.menu-h1 {
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: #e9665d;
 }
 
-.menu h1 {
+.menu-h1 h1 {
     font-size: 24px;
     font-weight: 800;
     cursor: pointer;
 }
 
-.menu h1:hover {
-    color: #e9665d;
+.menu-h1 h1:hover {
+    color: white;
 }
 
 .imagem-tabela img {
@@ -300,7 +302,21 @@ tbody tr {
     justify-content: space-between;
 }
 
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
+.container-menu-tabelas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 /*estilo do footer*/
 footer {
