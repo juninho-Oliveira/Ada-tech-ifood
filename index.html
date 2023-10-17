@@ -92,15 +92,15 @@
                         
 
                             <div class="form-inputs" id="Cadastra">
-                                <form action="" method="post">
-                                    <input type="text" placeholder="Nome">
-                                    <input type="text" placeholder="Sobrenome">
+                                <form action="https://6529714e55b137ddc83ed6ce.mockapi.io/api/v1/cardapio" method="post">
+                                    <input type="text" placeholder="Nome" id="nome" name="nome" required>
+                                    <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
 
-                                    <input type="text" placeholder="Celular ou email">
-                                    <input type="password" placeholder="Digite sua senha">
+                                    <input type="email" placeholder="E-mail" id="email" name="email" required>
+                                    <input type="password" placeholder="Digite sua senha" id="senha" name="senha" required>
 
-                                    <label for="">Data de nascimento</label>
-                                    <input type="date" id="data">
+                                    <label for="data">Data de nascimento</label>
+                                    <input type="date" id="data" name="data" required>
 
                                     <button type="submit" id="Cadastre-se">Cadastre-se</button>
                                 </form>
