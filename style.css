@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #FDFCF7;
+}
+
+/* realizar scroll suave na minha pagina html */
+html{
+    scroll-behavior: smooth;
+  }
+
+.container-grid {
+    width: 80%;
+    
+}
+
+/*estilo do menu*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.links-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-grid .menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.container-grid .menu ul li a {
+    color: black;
+    font-size: 18px;
+}
+
+.container-grid .menu ul li a:hover {
+    color: #e9665d;
+}
+
+.img-logo img {
+    width: 60px;
+}
+
+/*estilo do main*/
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.container-texto {
+    width: 50%;
+}
+
+.container-texto span {
+    color: #e9665d;
+}
+
+.container-texto p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #3d3c3c;
+    font-weight: 600;
+}
+
+.container-texto h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3d3c3c;
+    line-height: 1;
+}
+
+
+.cards-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.promocao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.promocao h1 {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.promocao h1:hover {
+    color: #e9665d;
+}
+
+.cards-menu:hover {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cards-menu  p {
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+}
+
+.cards-menu img {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*estilo do banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner img {
+    width: 450px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.banner .botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 24px;
+    border: 2px solid #e9665d;
+    color: #e9665d;
+}
+
+#Cadastro {
+    background-color: #e9665d;
+}
+
+#Cadastro a {
+    color: white;
+}
+
+/*estilo do form*/
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imagem-logo-pizza img {
+    width: 400px;
+}
+
+.texto-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #e9665d;
+    width: 432px;
+    height: 500px;
+}
+
+.texto-form p {
+    color: #e9665d;
+    font-weight: 700;
+}
+
+.form-inputs form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+}
+
+#data {
+    width: 100px;
+}
+
+#Cadastre-se {
+    background-color: #e9665d;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilo do footer
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 63px;
+    font-weight: 700;
+}
+
+footer span {
+    color: #e9665d;
+  }*/
